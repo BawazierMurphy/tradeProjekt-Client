@@ -1,0 +1,14 @@
+.App {
+  background-color: var(--primary-1);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  color: var(--black-3);
+}
+
+.App h1 {
+  margin-top: 8px;
+}

@@ -1,0 +1,28 @@
+.theboxContainer:first-child {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.theboxContainer:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+.theboxContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.thebox {
+  margin-right: 8px;
+  height: 35px;
+  width: 35px;
+  border-radius: 10px;
+  border: 5px solid var(--primary-3);
+  display: grid;
+  place-items: center;
+}
+
+.theboxContainer h3 {
+  color: var(--black-1);
+}
